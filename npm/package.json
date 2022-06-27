@@ -5,10 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app",
+    "start": "nodemon app",
     "e1jeong": "node app"
   },
-  "keywords": ["test"],
+  "keywords": [
+    "test"
+  ],
   "author": "e1jeong",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
 }
